@@ -128,15 +128,27 @@ A user-friendly application to upload files to the backend (Node.js) and display
 - Display uploaded images on the frontend
 
 #### Setup Instructions
-1. Navigate to the project directory:
+1. Navigate to the project server directory:
     ```sh
-    cd file-upload
+    cd file-upload/server
     ```
 2. Install dependencies:
     ```sh
     npm install
     ```
 3. Start the development server:
+    ```sh
+    npm run dev
+    ```
+4. Navigate to the project directory:
+    ```sh
+    cd file-upload/client
+    ```
+5. Install dependencies:
+    ```sh
+    npm install
+    ```
+6. Start the development server:
     ```sh
     npm start
     ```
@@ -152,9 +164,9 @@ A food-related application with search functionalities and dynamic data from the
 - Search functionalities
 
 #### Setup Instructions
-1. Navigate to the project directory:
+1. Navigate to the project server directory:
     ```sh
-    cd foody-zone
+    cd foody-zone/server
     ```
 2. Install dependencies:
     ```sh
@@ -162,8 +174,21 @@ A food-related application with search functionalities and dynamic data from the
     ```
 3. Start the development server:
     ```sh
+    npm run dev
+    ```
+4. Navigate to the project app directory:
+    ```sh
+    cd foody-zone/app
+    ```
+5. Install dependencies:
+    ```sh
+    npm install
+    ```
+6. Start the development server:
+    ```sh
     npm start
     ```
+
 
 ---
 
@@ -171,6 +196,3 @@ A food-related application with search functionalities and dynamic data from the
 
 If you would like to contribute to these projects, please fork the repository and create a pull request with your changes.
 
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
